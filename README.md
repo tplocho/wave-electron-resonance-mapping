@@ -1,5 +1,7 @@
 # Wave-Electron Resonance Mapping for Tokamak Plasmas
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17664754.svg)](https://doi.org/10.5281/zenodo.17664754)
+
 MATLAB code for parametric mapping of the electron-cyclotron resonance condition in tokamak plasmas, developed in the context of an Integrated Master's diploma thesis at the National Technical University of Athens (NTUA).
 
 ## Overview
@@ -21,6 +23,7 @@ wave-electron-resonance-mapping/
 ├─ matlab/
 │  └─ matlab_code.m
 ├─ docs/
+│  ├─ thesis-abstract.md
 │  ├─ thesis-context.md
 │  ├─ usage-notes.md
 │  └─ usage-notes-original.txt
@@ -38,6 +41,8 @@ wave-electron-resonance-mapping/
 
 ## Inputs and outputs
 Supporting notes are available in:
+- `docs/thesis-abstract.md`
+- `docs/thesis-context.md`
 - `docs/usage-notes.md`
 - `examples/sample-output-schema.md`
 
@@ -48,7 +53,7 @@ The repository is associated with the thesis:
 Theotokis Plochoros  
 National Technical University of Athens, 2025
 
-The thesis PDF is cited separately rather than bundled in the repository.
+The full thesis text is not bundled in the repository.
 
 ## Citation
 If you use or reference the code, please cite the archived software release:
