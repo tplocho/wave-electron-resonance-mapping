@@ -80,5 +80,14 @@ This repository continues the earlier thesis-code release associated with:
 - Email: [tplocho@gmail.com](mailto:tplocho@gmail.com)
 - LinkedIn: [linkedin.com/in/tplocho](https://www.linkedin.com/in/tplocho)
 
+<!--
+Future extension hooks
+- When the official NTUA thesis page becomes available, add it here:
+  - Official NTUA thesis page: [Title / record link](https://...)
+- At that point, decide whether to keep both links visible:
+  - official NTUA page
+  - in-repo PDF fallback
+-->
+
 ## License
 MIT License.
