@@ -7,6 +7,8 @@ MATLAB code for parametric mapping of the electron-cyclotron resonance condition
 ## Overview
 The repository contains a MATLAB implementation for scanning the electron-cyclotron resonance condition across prescribed tokamak geometry, plasma-profile, magnetic-field, launch-angle, and frequency settings, with resonance-root results written to CSV for downstream analysis.
 
+![Illustrative resonance-mapping visualization](assets/resonance-landscape.png)
+
 ## Main capabilities
 - radial scan or fixed-radius / q-surface evaluation
 - selectable density-profile models
@@ -20,9 +22,12 @@ wave-electron-resonance-mapping/
 ├─ README.md
 ├─ LICENSE
 ├─ CITATION.cff
+├─ assets/
+│  └─ resonance-landscape.png
 ├─ matlab/
 │  └─ matlab_code.m
 ├─ docs/
+│  ├─ SAMPS_Thesis_Plochoros.pdf
 │  ├─ thesis-abstract.md
 │  ├─ thesis-context.md
 │  ├─ usage-notes.md
@@ -53,7 +58,8 @@ The repository is associated with the thesis:
 Theotokis Plochoros  
 National Technical University of Athens, 2025
 
-The full thesis text is not bundled in the repository.
+The full thesis PDF is currently available directly in this repository:
+- [SAMPS_Thesis_Plochoros.pdf](docs/SAMPS_Thesis_Plochoros.pdf)
 
 ## Citation
 If you use or reference the code, please cite the archived software release:
@@ -68,6 +74,11 @@ See `CITATION.cff` for machine-readable metadata.
 This repository continues the earlier thesis-code release associated with:
 - `theoplo/SAMPS_Plochoros_Thesis_Code`
 - Zenodo DOI `10.5281/zenodo.17664754`
+
+## Links
+- Thesis PDF: [docs/SAMPS_Thesis_Plochoros.pdf](docs/SAMPS_Thesis_Plochoros.pdf)
+- Email: [tplocho@gmail.com](mailto:tplocho@gmail.com)
+- LinkedIn: [linkedin.com/in/tplocho](https://www.linkedin.com/in/tplocho)
 
 ## License
 MIT License.
