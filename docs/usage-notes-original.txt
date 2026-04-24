@@ -1,0 +1,28 @@
+The steps required to run the code are largely self-explanatory. Nevertheless, to eliminate any potential ambiguity, a few key points regarding the user’s input commands are clarified below.
+
+1) r-mode selection
+
+The parameter r corresponds to the radial position within the plasma, ranging from the magnetic axis (r = 0) to the plasma edge (r = a). To obtain solutions of the wave–electron resonance condition across this interval, the user should select option “S”, which performs a full radial scan.
+
+If instead the radius is to be held fixed—allowing the user to examine the solution profile at a specific location—any option other than “S” may be used.
+Specifically, option “A” fixes the radius at the plasma edge, while option “F” allows the user to specify a custom value.
+
+Options “B”, “C”, and “Q” correspond to predefined q-surfaces (magnetic islands). In these cases, the appropriate value of r is computed automatically so that it satisfies the selected condition.
+
+
+2) Density-profile selection
+
+The user may choose among three electron-density profiles:
+
+- parabolic (L-mode plasma),
+
+- exponential (H-mode plasma),
+
+- pedestal-type (H-mode plasma).
+
+Within the context of this thesis, the exponential profile was omitted entirely. A comparison between the parabolic and pedestal profiles was considered sufficient, as they constitute the simplest and most representative cases.
+
+
+3) CSV filename
+
+Finally, the user may optionally specify the name of the CSV output file in advance—ideally using a name consistent with the selected options in steps 1 and 2—to avoid accidental overwriting and potential data loss.

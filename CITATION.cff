@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the archived Zenodo software release listed below."
+title: "Wave-Electron Resonance Mapping for Tokamak Plasmas"
+type: software
+authors:
+  - family-names: "Plochoros"
+    given-names: "Theotokis"
+    affiliation: "National Technical University of Athens"
+    email: "tplocho@gmail.com"
+repository-code: "https://github.com/tplocho/wave-electron-resonance-mapping"
+license: "MIT"
+keywords:
+  - "MATLAB"
+  - "plasma physics"
+  - "tokamak"
+  - "fusion energy"
+  - "ECRH"
+  - "ECCD"
+  - "NTM control"
+preferred-citation:
+  type: software
+  authors:
+    - family-names: "Plochoros"
+      given-names: "Theotokis"
+  title: "Wave-Electron Resonance Mapping Code for Tokamak Plasmas"
+  year: 2025
+  doi: 10.5281/zenodo.17664754
+  publisher: "Zenodo"
